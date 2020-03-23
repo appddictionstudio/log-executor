@@ -7,3 +7,4 @@ RUN ./aws/install
 RUN aws --version
 RUN yum install -y epel-release
 RUN yum install -y sshpass
+RUN yum install -y openssh-clients
